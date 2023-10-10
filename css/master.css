@@ -1,0 +1,39 @@
+
+
+.logo {
+    text-transform: uppercase;
+
+};
+
+.titulos {
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.descripcion {
+    text-align: center;
+    
+}
+
+.descripcionProducto {
+    padding-top: 3%;
+    width: 40%;
+    
+}
+
+.producto {
+    display: flex;
+    justify-content: center;
+    padding-left: 20%;
+   
+}
+
+.tituloProducto {
+    font-weight: 900;
+}
+
+.detalle {
+    padding-top: 2%;
+}
+

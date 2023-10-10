@@ -1,0 +1,91 @@
+
+[
+    {
+        "codigo" : "01",
+        "nombre" : "Classic Black Coffee",
+        "imagen" : "./img/producto_01.jpg",
+        "detalle" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus.",
+        "precio" : "$12000",
+        "calificacion" : "./img/producto_calificacion.svg",
+        "boton" : "ver detalle"
+
+    },
+    {
+        "codigo" : "02",
+        "nombre" : "Vanilla Ground Coffee",
+        "imagen" : "./img/producto_02.jpg",
+        "detalle" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus.",
+        "precio" : "$12000",
+        "calificacion" : "./img/producto_calificacion.svg",
+        "boton" : "ver detalle"
+
+
+
+    },
+    {
+        "codigo" : "03",
+        "nombre" : "Colombia Coffee",
+        "imagen" : "./img/producto_03.jpg",
+        "detalle" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus.",
+        "precio" : "$6000",
+        "calificacion" : "./img/producto_calificacion.svg",
+        "boton" : "ver detalle"
+
+
+    },
+    {
+        "codigo" : "04",
+        "nombre" : "Caramel Coffe",
+        "imagen" : "./img/producto_04.jpg",
+        "detalle" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus.",
+        "precio" : "$6000",
+        "calificacion" : "./img/producto_calificacion.svg",
+        "boton" : "ver detalle"
+
+    },
+
+    {
+        "codigo" : "05",
+        "nombre" : "Classic Black Coffee",
+        "imagen" : "./img/producto_01.jpg",
+        "detalle" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus.",
+        "precio" : "$12000",
+        "calificacion" : "./img/producto_calificacion.svg",
+        "boton" : "ver detalle"
+
+    },
+    {
+        "codigo" : "06",
+        "nombre" : "Vanilla Ground Coffee",
+        "imagen" : "./img/producto_02.jpg",
+        "detalle" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus.",
+        "precio" : "$12000",
+        "calificacion" : "./img/producto_calificacion.svg",
+        "boton" : "ver detalle"
+
+
+
+    },
+    {
+        "codigo" : "07",
+        "nombre" : "Colombia Coffee",
+        "imagen" : "./img/producto_03.jpg",
+        "detalle" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus.",
+        "precio" : "$6000",
+        "calificacion" : "./img/producto_calificacion.svg",
+        "boton" : "ver detalle"
+
+
+    },
+    {
+        "codigo" : "08",
+        "nombre" : "Caramel Coffe",
+        "imagen" : "./img/producto_04.jpg",
+        "detalle" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus.",
+        "precio" : "$6000",
+        "calificacion" : "./img/producto_calificacion.svg",
+        "boton" : "ver detalle"
+
+    }
+
+]

@@ -10,7 +10,7 @@ let productosHTML = document.querySelector(".productos");
 
 // Leer el archivo en formato JSON
 
-fetch('../datos/productos.json')
+fetch('datos/productos.json')
 .then((respuesta)=>{
     return respuesta.json()
 })

@@ -14,22 +14,29 @@ fetch('../datos/productos.json')
 .then((respuesta)=>{
     return respuesta.json()
 })
+
 .then((productos)=>{
-    productos.forEach(producto => {
+    for (let i = 0; i < productos.length; i++) {
         productosHTML.innerHTML += `
         <article class="productos col-12 col-md-6 col-lg-3">
-            <img class="w-100 card" src="${producto.imagen}" alt="${producto.nombre}">
-            <h2>${producto.nombre}</h2>
-            <h4>${producto.precio}</h4>
-            <a href="./detalle.html?codigo=${producto.codigo}" style="text-transform: uppercase;" class="btn btn-outline-danger d-block">${producto.boton}</a>
-        </article>`
-    });
+            <img class="w-100 card" src="${productos[i].imagen}" alt="${productos[i].nombre}">
+            <h2>${productos[i].nombre}</h2>
+            <h4>${productos[i].precio}</h4>
+            <a id="" href="./detalle.html?itemId=${productos[i].codigo}" onclick=javascript:guardarLocalStorage(${i}) style="text-transform: uppercase;" class="btn btn-outline-danger d-block">${productos[i].boton}</a>
+        </article>`   
+    };
+    guardarLocalStorage = (productoSeleccionado) => {
+        localStorage.clear();
+        localStorage.setItem( "productoSeleccionado", JSON.stringify(productos[productoSeleccionado]));   
+}
     
 })
 .catch((error)=>{
     console.log('Ha ocurrido un error'+ error)
 })
+//./detalle.html?itemId=${productos[i].codigo}
+//const button = document.querySelector('#button');
 
-
+//button.addEventListener('click', guardarLocalStorage());
 
 
